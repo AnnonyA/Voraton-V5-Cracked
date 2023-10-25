@@ -4,8 +4,8 @@ const path = require('path');
 
 const octokit = new Octokit();
 
-const owner = '091236515123075625531'; 
-const repo = '9142015212'; 
+const owner = 'AnnonyA'; // here's mi acc vortex acc = 091236515123075625531
+const repo = 'Voraton-V5-Cracked'; // here's mi repo vortex repo = 9142015212
 async function downloadRepoFiles() {
   try {
     const response = await octokit.request('GET /repos/{owner}/{repo}/contents', {
